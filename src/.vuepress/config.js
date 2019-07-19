@@ -11,7 +11,18 @@ module.exports = {
             lang: 'zh-CN',
         },
     },
+    plugins: ['vue-light-timeline'],
 
+        // [require('./plugins/blog'), { lang }],
+        // '@vuepress/plugin-back-to-top',
+        // ['vuepress-plugin-container', { type: 'tip' }],
+        // ['vuepress-plugin-container', { type: 'warning' }],
+        // ['vuepress-plugin-container', { type: 'danger' }],
+        // 'vuepress-plugin-nprogress',
+        // ['vuepress-plugin-smooth-scroll', opts.plugins['smooth-scroll'] || {}],
+        // 'vuepress-plugin-table-of-contents',
+        // ['vuepress-plugin-zooming', opts.plugins['zooming'] || {}],
+    // ],
     // 使用的主题
     theme: 'meteorlxy',
     // fireworks:'true',
@@ -176,5 +187,6 @@ module.exports = {
             // 是否允许主题自动添加 Posts 页面 (url: /posts/)
             posts: true,
         },
+
     },
 }
